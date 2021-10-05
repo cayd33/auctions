@@ -1,0 +1,179 @@
+* {
+  font-family: 'Baloo 2', cursive;
+}
+
+#navbar-container {
+  border-radius: 0 0 10px 10px;
+  background-color: #333538;
+}
+
+#navbar-logo {
+  color: #4c5c9c;
+  font-weight: 700;
+  font-size: 3vh;
+}
+
+#card-container {
+  background-color: #333538;
+  border-color: #333538;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+form {
+  background: #333538;
+  color: #fff;
+}
+
+div.modal-header,
+div.modal-footer {
+  border-color: #232629;
+}
+
+input.form-control {
+  background-color: #232629;
+  border-color: #333538;
+  color: white;
+}
+
+input.form-control:focus {
+  background-color: #232629;
+  border-color: #333538;
+  color: white;
+}
+
+#seller {
+  background-color: #232629;
+  border-color: #333538;
+}
+
+#button-addon2 {
+  outline: none;
+  box-shadow: none;
+}
+
+#auction-info {
+  margin-top: 1rem;
+}
+
+div .input-group-text.current-winner {
+  color: #00a000;
+}
+
+button.navbar-toggler.collapsed,
+button.navbar-toggler {
+  border: 0;
+}
+
+svg {
+  color: #667bce;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+svg:hover {
+  color: #374472;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+div.dropdown-menu.show {
+  background-color: #667bce;
+  border: none;
+}
+
+button.navbar-toggler.collapsed,
+button.navbar-toggler {
+  outline: none;
+  box-shadow: none;
+}
+
+button.navbar-toggler.collapsed:focus,
+button.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 -3px 1px -1px #667bce;
+}
+
+div .list-group-item {
+  background-color: #333538;
+  color: white;
+}
+
+.btn.btn-outline-secondary {
+  background-color: #4c5c9c;
+  color: whitesmoke;
+  border-color: #4c5c9c;
+}
+
+.btn.btn-outline-secondary.mx-2.disabled {
+  color: #667bce;
+}
+
+.btn.btn-outline-secondary.cancel {
+  background-color: #9c4c4c;
+  border-color: #9c4c4c;
+  margin-right: 0.9rem;
+}
+
+.btn.btn-outline-secondary.cancel:hover {
+  background-color: #723737;
+  border-color: #723737;
+}
+
+.btn.btn-outline-secondary:hover {
+  background-color: #374472;
+  border-color: #374472;
+}
+
+.list-group-item {
+  background-color: #333538;
+  color: white;
+}
+
+div .input-group-text {
+  background-color: #232629;
+  border-color: #333538;
+  color: white;
+}
+
+div .input-group-text.winner {
+  display: table;
+
+  color: #fdd813;
+}
+
+.input-group-text.wallet {
+  padding: 0.4rem;
+  color: rgb(218, 218, 218);
+  background-color: #374472;
+}
+
+.input-group > .form-control,
+.input-group > .form-select {
+  background-color: #232629;
+  border-color: #232629;
+  color: white;
+}
+
+.input-group > .form-control:focus,
+.input-group > .form-select {
+  background-color: #232629;
+  color: white;
+}
+
+.input-group > .form-control::-webkit-input-placeholder,
+.input-group > .form-select::-webkit-input-placeholder {
+  border-bottom: none;
+}
+
+/* .card {
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+} */
